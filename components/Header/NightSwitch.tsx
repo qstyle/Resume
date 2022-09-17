@@ -1,17 +1,28 @@
 import React from 'react'
-import { FormControl, FormLabel,  useColorMode, Switch } from '@chakra-ui/react'  
+import {
+    Box,
+    Switch,
+    FormLabel,
+    FormControl, 
+    useColorMode,
+    } from '@chakra-ui/react'  
 
-export const NightSwitch: React.FC = ( ) => {
+enum ColorMode {
+  Light = 'light',
+  Night = 'night'
+}
+
+export const NightSwitch: React.FC = () => {
   const { colorMode, toggleColorMode } = useColorMode()
   
-  const getLabel = colorMode === 'light' ? 'night' : 'light'
+  const activeColor = colorMode === ColorMode.Light ? ColorMode.Night : ColorMode.Light
   
   return (
-    <FormControl display='flex'>
-      <FormLabel mb='0'>Switch to {getLabel}</FormLabel>
-      <Switch 
-        onChange={toggleColorMode}
-        checked={colorMode === 'light'} />
-    </FormControl>
+      <FormControl display='flex' justifyContent='end'>
+        <FormLabel fontSize='sm' mb='0'>Switch to {activeColor}</FormLabel>
+        <Switch 
+          onChange={toggleColorMode}
+          checked={colorMode === ColorMode.Light} />
+      </FormControl>
   )
 }
