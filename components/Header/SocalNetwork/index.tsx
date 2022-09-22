@@ -1,16 +1,22 @@
 import React from 'react'
-import { Flex, Icon } from '@chakra-ui/react' 
+import { Flex, Icon, Link } from '@chakra-ui/react' 
 
-import { vkIcon , telegramIcon} from './icon'
+import { vkIcon , telegramIcon, gitHubIcon} from './icon'
  
 
 
 export const SocalNetwork: React.FC = ( ) => {
 return(
   <Flex  justifyContent='end' mt='2' gap='2'>
-    <Icon color='' w='7' h='7'>{telegramIcon}</Icon>
-    <Icon w='7' h='7'>{vkIcon}</Icon>
-    <Icon w='7' h='7'>{telegramIcon}</Icon>
+    <Link href='https://t.me/qstyle'>
+      <Icon color='' w='7' h='7'>{telegramIcon}</Icon>
+    </Link>
+    <Link href='https://vk.com/quadro911'>
+      <Icon w='7' h='7'>{vkIcon}</Icon>
+    </Link>
+    <Link href='https://github.com/qstyle'>
+      <Icon w='7' h='7'>{gitHubIcon}</Icon>
+    </Link>
   </Flex>
 )
 }
