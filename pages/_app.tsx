@@ -5,11 +5,19 @@ import { extendTheme } from '@chakra-ui/react'
 
 const theme = extendTheme()
 
+const styles = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
+}
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ChakraProvider theme={theme}>
-      <Component {...pageProps} />
-    </ChakraProvider>
+    <div style={styles} >
+      <ChakraProvider theme={theme}>
+        <Component {...pageProps} />
+      </ChakraProvider>
+    </div>
   )
 }
 

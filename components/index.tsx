@@ -8,8 +8,8 @@ export const MainLayout: React.FC = ( ) => {
   
   return (
     <Box p='5px' maxW='1600px'>
-        <Header />
-        <Body />
+      <Header />
+      <Body />
     </Box>
   )
 }
