@@ -4,6 +4,7 @@ import { useMediaQuery } from '@chakra-ui/react'
  
 import { ContentWrapper } from './ContentWrapper'
 import { Avatar } from './Avatar'
+import { Skills } from './Skills'
 
 export const Body: React.FC = () => {
 const [isMobile] = useMediaQuery('(min-width: 768px)')
@@ -30,7 +31,7 @@ const styles = isMobile ? {
     </GridItem>
     <GridItem rowSpan={1} colSpan={1}>
       <ContentWrapper>
-        <Box w='100%' bg='tomato'>bingo1</Box>
+        <Skills />
       </ContentWrapper>
     </GridItem>
   </Grid>
