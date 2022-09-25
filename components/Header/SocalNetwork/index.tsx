@@ -5,8 +5,7 @@ import { vkIcon , telegramIcon, gitHubIcon} from './icon'
  
 
 
-export const SocalNetwork: React.FC = ( ) => {
-return(
+export const SocalNetwork: React.FC = ( ) => (
   <Flex  justifyContent='end' mt='2' gap='2'>
     <Link href='https://t.me/qstyle'>
       <Icon color='' w='7' h='7'>{telegramIcon}</Icon>
@@ -19,4 +18,3 @@ return(
     </Link>
   </Flex>
 )
-}
