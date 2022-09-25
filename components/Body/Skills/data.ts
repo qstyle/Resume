@@ -3,12 +3,15 @@ export const MainHardSkills = [
   'GIT',
   'CSS, SASS, LESS',
   'Java script',
+  'TypeScript',
   'Node JS',
   'React',
   'GraphQL',
   'Effector',
   'Apollo',
   'Next JS (SSR)',
+  'Webpack',
+  'Vite',
   'UI design system'
 ]
 
