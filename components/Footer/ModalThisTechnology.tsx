@@ -1,16 +1,17 @@
 import React from 'react'
-import {useDisclosure,
-   Modal as ChakraModal,
-    Button,
-    ModalOverlay,
-    ModalContent,
-    ModalHeader, 
-    ModalBody,
-    ModalFooter,
-    ModalCloseButton, 
+import {
     Stack,
     Link,
-} from '@chakra-ui/react' 
+    Button,
+    ModalBody,
+    ModalFooter,
+    ModalHeader, 
+    ModalOverlay,
+    ModalContent,
+    useDisclosure,
+    ModalCloseButton, 
+    Modal as ChakraModal,
+ } from '@chakra-ui/react' 
  
 export const ModalThisTechnology: React.FC = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()

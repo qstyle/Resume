@@ -39,5 +39,19 @@ export const AboutMe: React.FC = () => (
         React. Development of Complex Front-end Applications
     </Link>
     </Stack>
+    <Heading mt='5' size='md'>Work experience:</Heading>
+    <Text mt='5'>October 2020 - December 2021 developed tactivPro startup (application for search and results of offline events):</Text>
+    <Text>
+      Development of interfaces and customization of application logic,
+      I was investigating and proposing technologies that speeded up feature delivery and further maintenance, participation
+      in the discussion of the expected features and functionality of the project.
+      the startup could not be brought to release due to a random political situation in the world.
+    </Text>
+    <Text mt='5'>December 2021 startup frisbiiStudio (SPA constructor app with interesting logic):</Text>
+    <Text>
+      I create and customize interfaces and their behavior,
+      I also do code reviews and participate in the resolution of the project resolution.
+      I was investigating and proposing technologies that speeded up feature delivery and further maintenance.
+    </Text>
   </Box>
 )
