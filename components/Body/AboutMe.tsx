@@ -1,10 +1,10 @@
 import React from 'react'
 import { 
-  Text,
   Box,
+  Text,
   Link,
+  Stack,
   Heading,
-  Stack 
 } from '@chakra-ui/react'
  
 export const AboutMe: React.FC = () => (

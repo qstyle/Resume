@@ -10,6 +10,7 @@ export const Avatar: React.FC = () => (
       width='400px'
       height='500px'
       src={AvatarSrc}
-      alt="avatar" />
+      alt="avatar"
+    />
   </Flex>
 )

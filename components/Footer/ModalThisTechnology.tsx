@@ -1,16 +1,16 @@
 import React from 'react'
 import {
-    Stack,
-    Link,
-    Button,
-    ModalBody,
-    ModalFooter,
-    ModalHeader, 
-    ModalOverlay,
-    ModalContent,
-    useDisclosure,
-    ModalCloseButton, 
-    Modal as ChakraModal,
+  Stack,
+  Link,
+  Button,
+  ModalBody,
+  ModalFooter,
+  ModalHeader, 
+  ModalOverlay,
+  ModalContent,
+  useDisclosure,
+  ModalCloseButton, 
+  Modal as ChakraModal,
  } from '@chakra-ui/react' 
  
 export const ModalThisTechnology: React.FC = () => {
