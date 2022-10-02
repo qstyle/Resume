@@ -16,8 +16,8 @@ export const MainHardSkills = [
 ]
 
 export const ProgressHardSkills = [
-  'vue.js',
-  'nuxt.js',
+  'Vue.js',
+  'Nuxt.js',
   'Redux, Mobx',
   'Node JS',
   'Nest JS',
