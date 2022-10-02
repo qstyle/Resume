@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
       justifyContent='space-between'
       flexDirection={isMobile ? 'row' : 'column'}
     >
-      <Text mb={isMobile ? '0': '3'} >Designed and created by Dmitry Ordin</Text>
+        <Text mb={isMobile ? '0': '3'} >Designed and created by Dmitry Ordin</Text>
       <Flex alignItems='center' gap='5'>
         <ModalThisTechnology />
         <Link color='teal.500'  href='https://github.com/qstyle/resume'>

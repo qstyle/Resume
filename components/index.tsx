@@ -5,7 +5,7 @@ import { Header } from './Header'
 import { Body } from './Body'
 import { Footer } from './Footer'
 
-export const MainLayout: React.FC = ( ) => (
+export const MainLayout: React.FC = () => (
   <Box p='5px' maxW='1200px'>
     <Header />
     <Body />

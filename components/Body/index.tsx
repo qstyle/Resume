@@ -11,7 +11,7 @@ export const Body: React.FC = () => {
 const [isMobile] = useMediaQuery('(min-width: 768px)')
 
 const styles = isMobile ? {
-  templateColumns:'repeat(3, 1fr)'
+    templateColumns:'repeat(3, 1fr)'
   } : {
     templateColumns:'repeat(1, 1fr)'
   }
