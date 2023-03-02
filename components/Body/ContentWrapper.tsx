@@ -5,11 +5,11 @@ interface Props {
   children : ReactNode
 }
 
-export const ContentWrapper: React.FC<Props> = ({children}) => (
+export const ContentWrapper: React.FC<Props> = ({ children }) => (
   <Box
+    p='2'
     borderWidth='2px'
     borderRadius='sm'
-    p='2'
   >
     {children}
   </Box>

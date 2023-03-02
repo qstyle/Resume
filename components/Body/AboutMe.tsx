@@ -47,11 +47,24 @@ export const AboutMe: React.FC = () => (
       in the discussion of the expected features and functionality of the project.
       the startup could not be brought to release due to a random political situation in the world.
     </Text>
-    <Text mt='5'>December 2021 startup frisbiiStudio (SPA constructor app with interesting logic):</Text>
+    <Text mt='5'>December 2021 - November  2022 startup frisbiiStudio (SPA constructor app with interesting logic):</Text>
     <Text>
       I create and customize interfaces and their behavior,
       I also do code reviews and participate in the resolution of the project resolution.
       I was investigating and proposing technologies that speeded up feature delivery and further maintenance.
+    </Text>
+    <Text mt='5'>November  2022 -  1 March  web studio `Palax` </Text>
+    <Text>
+      As an experienced Front-end Developer, Senior Developer, and Team Leader, 
+      I specialize in the development of the client-facing components of projects.
+      With a keen eye for detail and a passion for quality,
+      I lead a team of two developers, overseeing their work, conducting thorough code reviews,
+      and providing expert guidance on technical matters.
+      My responsibilities also include setting tasks,
+      monitoring their progress, and ensuring timely completion 
+      of all deliverables. By leveraging my skills in leadership, 
+      collaboration, and technical expertise, I have consistently delivered
+      exceptional results that exceed client expectations.
     </Text>
   </Box>
 )
